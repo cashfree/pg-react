@@ -34,7 +34,7 @@ A React component library for integrating Cashfree Payment Gateway in your React
 Card payment requires four components: CardNumber, CardHolder, CardExpiry, and CardCVV. Optionally, you can include SaveInstrument to let users save their card.
 
 ```react
-   import React, { useState } from "react";
+import React, { useState } from "react";
 import {
   Cashfree,
   CardNumber,
@@ -94,10 +94,9 @@ export default App;
 ```
 
  4. Event Handling
- The Cashfree component provides an onComplete callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
+    The Cashfree component provides an onComplete callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
 
 5. Styling Components
-
-Customize the appearance by passing a customStyle object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style properties to match your app's look.
+    Customize the appearance by passing a customStyle object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style          properties to match your app's look.
 
 
