@@ -1,0 +1,7 @@
+src/
+tests/
+.vscode/
+*.test.ts
+*.spec.ts
+jest.config.js
+tsconfig.json
