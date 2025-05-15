@@ -1,0 +1,58 @@
+{
+  "name": "pg-react",
+  "version": "1.0.0",
+  "description": "Reusable React components for Cashfree PG",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lib:dev": "tsup src/index.ts --watch --format esm,cjs --dts",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cashfree/pg-react.git"
+  },
+  "keywords": [
+    "react",
+    "cashfree",
+    "payments",
+    "components",
+    "pg"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cashfree/pg-react/issues"
+  },
+  "homepage": "https://github.com/cashfree/pg-react#readme",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@cashfreepayments/cashfree-js": "^1.0.5",
+    "@reduxjs/toolkit": "^2.8.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@types/react-redux": "^7.1.34",
+    "@vitejs/plugin-react": "^4.4.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
