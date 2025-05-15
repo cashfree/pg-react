@@ -48,7 +48,7 @@ const CardNumber: React.FC<CardNumberProps> = ({ customStyle = {} }) => {
     })();
   }, [dispatch, theme, customStyle]);
 
-  return <div id="cardNumber" />;
+  return <div id="cardNumber" data-testid="cardNumber"/>;
 };
 
 export default CardNumber;

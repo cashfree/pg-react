@@ -69,7 +69,7 @@ const { theme } = useSelector((state: RootState) => state.card); // Assuming you
     })();
   }, [dispatch, theme, customStyle]);
 
-  return <div id="save" style={{ marginBottom: "10px" }}></div>;
+  return <div id="save"  data-testid="save"></div>;
 }
 
 export default SaveCard;

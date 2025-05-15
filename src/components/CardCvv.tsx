@@ -70,7 +70,7 @@ const CardCvv: React.FC<CardNumberProps> = ({ customStyle }) => {
     })();
   }, [dispatch, theme, customStyle]);
 
-  return <div id="cardCvv" />;
+  return <div id="cardCvv" data-testid="cardCvv"/>;
 };
 
 export default CardCvv;

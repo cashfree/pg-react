@@ -77,7 +77,7 @@ const CardHolder: React.FC<CardNumberProps> = ({ customStyle }) => {
     })();
   }, [dispatch, theme, customStyle]);
 
-  return <div id="cardHolder" />;
+  return <div id="cardHolder" data-testid="cardHolder" />;
 }
 
 export default CardHolder;

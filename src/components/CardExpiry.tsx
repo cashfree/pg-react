@@ -73,7 +73,7 @@ const { theme } = useSelector((state: RootState) => state.card);
     })();
   }, [dispatch, theme, customStyle]);
 
-  return <div id="cardExpiry" />;
+  return <div id="cardExpiry" data-testid="cardExpiry"/>;
 }
 
 export default CardExpiry;

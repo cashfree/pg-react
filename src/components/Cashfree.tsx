@@ -59,6 +59,7 @@ const InternalCardLayout: React.FC<CashfreeProps> = ({
   return (
     <div
       id="cashfree"
+      data-testid="cashfree-container"
       style={{
         width: "400px",
         padding: "20px",
