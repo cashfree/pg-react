@@ -2,20 +2,6 @@
 
 A React component library for integrating Cashfree Payment Gateway in your React applications.
 
-# Features
-
-1. Simple integration with Cashfree Payment Gateway
-
-2. Modular React components: CardNumber, CardHolder, CardExpiry, CardCVV, and SaveInstrument
-
-3. Customizable themes and styles
-
-4. Built-in completeness state management with event callbacks
-
-5. Supports saving card details for faster payments
-
-6. Written in TypeScript with full type definitions
-
 ## Quick Start Guide
 
 1. **Install the package**
@@ -92,11 +78,26 @@ const App: React.FC = () => {
 export default App;
 
 ```
+*Event Handling
+   *The Cashfree component provides an onComplete callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
 
- 4. Event Handling
-    The Cashfree component provides an onComplete callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
+* Styling Components
+    *Customize the appearance by passing a customStyle object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style          properties to match your app's look.
 
-5. Styling Components
-    Customize the appearance by passing a customStyle object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style          properties to match your app's look.
+
+# Features
+
+1. Simple integration with Cashfree Payment Gateway
+
+2. Modular React components: CardNumber, CardHolder, CardExpiry, CardCVV, and SaveInstrument
+
+3. Customizable themes and styles
+
+4. Built-in completeness state management with event callbacks
+
+5. Supports saving card details for faster payments
+
+6. Written in TypeScript with full type definitions
+
 
 
