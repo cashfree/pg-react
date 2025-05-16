@@ -95,7 +95,5 @@ export default App;
 
 5. Supports saving card details for faster payments
 
-6. Written in TypeScript with full type definitions
-
 
 
