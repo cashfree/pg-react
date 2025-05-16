@@ -11,9 +11,7 @@ A React component library for integrating Cashfree Payment Gateway in your React
    ```
 2. **Import and set up the Cashfree component**
 
-3.  **Run your app** and test the integration!
-
-5. Styling Components
+3.  **Run your app** and test the integration!**
 
 ### Card Payment
 
@@ -78,11 +76,11 @@ const App: React.FC = () => {
 export default App;
 
 ```
-*Event Handling
-   *The Cashfree component provides an onComplete callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
+4. **Event Handling**  
+   The Cashfree component provides an `onComplete` callback to notify when all card inputs are valid and complete. Use this to enable your Pay button or trigger other actions.
 
-* Styling Components
-    *Customize the appearance by passing a customStyle object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style          properties to match your app's look.
+5. **Styling Components**  
+   Customize the appearance by passing a `customStyle` object to the Cashfree component or individual components. This lets you override fonts, colors, borders, and other style properties to match your app's look.
 
 
 # Features
