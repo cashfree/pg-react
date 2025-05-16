@@ -11,7 +11,7 @@ A React component library for integrating Cashfree Payment Gateway in your React
    ```
 2. **Import and set up the Cashfree component**
 
-3.  **Run your app** and test the integration!**
+3.  **Run your app** and test the integration!
 
 ### Card Payment
 
