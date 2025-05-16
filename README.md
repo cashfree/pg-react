@@ -7,7 +7,7 @@ A React component library for integrating Cashfree Payment Gateway in your React
 1. **Install the package**
 
    ```bash
-   npm install @cashfreepayments/pg-svelte
+   npm install @cashfreepayments/pg-react
    ```
 2. **Import and set up the Cashfree component**
 
