@@ -40,7 +40,6 @@ const App: React.FC = () => {
     <Cashfree
       theme="pastel"
       onComplete={(status) => {
-        console.log("Status from component:", status);
         setIsComplete(status); // this is your local app state
       }}
     >
