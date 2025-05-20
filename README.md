@@ -15,7 +15,7 @@ A React component library for integrating Cashfree Payment Gateway in your React
 
 ### Card Payment
 
-Card payment requires four components: CardNumber, CardHolder, CardExpiry, and CardCVV. Optionally, you can include SaveInstrument to let users save their card.
+Card payment requires four components: CardNumber, CardHolder, CardExpiry and CardCVV. Optionally, you can include SaveInstrument to let users save their card.
 
 ```react
 import React, { useState } from "react";
