@@ -26,7 +26,7 @@ import {
   CardExpiry,
   CardCVV,
   SaveInstrument,
-} from "@cashfreepayments/pg-svelte";
+} from "@cashfreepayments/pg-react";
 
 const App: React.FC = () => {
   const [isComplete, setIsComplete] = useState(false);
