@@ -10,7 +10,7 @@ const SaveCard: React.FC<CardNumberProps> = ({ customStyle = {} }) => {
   const dispatch = useDispatch();
 const { theme } = useSelector((state: RootState) => state.card); // Assuming your redux state has a 'card' slice
 
-  let styleObject = {
+  const styleObject = {
     fonts: customStyle?.fonts ||
       themes[theme]?.fonts || [
         { cssSrc: "https://fonts.googleapis.com/css2?family=Lato" },
@@ -54,7 +54,7 @@ const { theme } = useSelector((state: RootState) => state.card); // Assuming you
       themes[theme]?.base?.backgroundColor ||
       "#f6f9fb",
   };
-  let saveOptions = {
+  const saveOptions = {
     values: {
       label: "Save Card for later",
     },

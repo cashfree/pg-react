@@ -11,7 +11,7 @@ const CardNumber: React.FC<CardNumberProps> = ({ customStyle = {} }) => {
   const { theme } = useSelector((state: RootState) => state.card); // Assuming your redux state has a 'card' slice
 
   useEffect(() => {
-    let styleObject = {
+    const styleObject = {
       fonts: customStyle?.fonts || themes[theme]?.fonts || [{ cssSrc: "https://fonts.googleapis.com/css2?family=Lato" }],
       base: {
         fontSize: customStyle?.base?.fontSize || themes[theme]?.base?.fontSize || "16px",

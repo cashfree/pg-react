@@ -2,10 +2,10 @@ import { configureStore } from "@reduxjs/toolkit";
 import cardReducer from "./cardSlice";
 
 const store = configureStore({
-    reducer: {
-        card: cardReducer,
-    },
-}) as any;
+  reducer: {
+    card: cardReducer,
+  },
+});
 
 // Type exports for hooks
 export type RootState = ReturnType<typeof store.getState>;

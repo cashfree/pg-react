@@ -10,7 +10,7 @@ const CardCvv: React.FC<CardNumberProps> = ({ customStyle }) => {
   const dispatch = useDispatch();
   const { theme } = useSelector((state: RootState) => state.card);
 
-  let styleObject = {
+  const styleObject = {
     fonts: customStyle?.fonts ||
       themes[theme]?.fonts || [
         { cssSrc: "https://fonts.googleapis.com/css2?family=Lato&display=swap" },
@@ -55,7 +55,7 @@ const CardCvv: React.FC<CardNumberProps> = ({ customStyle }) => {
       "#f6f9fb",
   };
 
-  let cvvOptions = {
+  const cvvOptions = {
     style: styleObject,
   };
 

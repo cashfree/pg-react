@@ -10,7 +10,7 @@ const CardExpiry: React.FC<CardNumberProps> = ({ customStyle }) => {
 const { theme } = useSelector((state: RootState) => state.card);
 
   useEffect(() => {
-    let styleObject = {
+    const styleObject = {
       fonts: customStyle?.fonts ||
         themes[theme]?.fonts || [
           { cssSrc: "https://fonts.googleapis.com/css2?family=Lato" },
@@ -59,7 +59,7 @@ const { theme } = useSelector((state: RootState) => state.card);
         "#f6f9fb",
     };
 
-    let cardExpiryOptions = {
+    const cardExpiryOptions = {
       style: styleObject,
     };
 
